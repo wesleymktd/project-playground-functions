@@ -58,9 +58,11 @@ function highestCount(numberCont) {
 function catAndMouse(mouse, cat1, cat2) {
   let dcat1 = mouse - cat1;
   let dcat2 = mouse - cat2;
-  if (dcat2 < dcat1) {
+  let mcat1 = Math.abs(dcat1);
+  let mcat2 = Math.abs(dcat2);
+  if (mcat2 < mcat1) {
     return 'cat2';
-  } else if (dcat1 < dcat2) {
+  } else if (mcat1 < mcat2) {
     return 'cat1';        
     } else {
       return 'os gatos trombam e o rato foge';
@@ -68,10 +70,29 @@ function catAndMouse(mouse, cat1, cat2) {
 }
 
 // Desafio 8
-function fizzBuzz() {
-  // seu código aqui
+function fizzBuzz(numberTroca) {
+  //verifica se é divisível por três e substitui
+  for (let index = 0; index < numberTroca.length; index += 1) {
+    if (numberTroca[index] % 3 === 0) {
+      numberTroca[index] = 'fizz';
+    }
+  }
+ //verifica se é divisível por cinco e substitui
+  for (let index2 = 0; index2 < numberTroca.length; index2 += 1) {
+    if (numberTroca[index2] % 5 === 0) {
+       numberTroca[index2] = 'buzz';
+    }
+  }
+ //verifica se é divisível por três e cinco e substitui
+  for (let index3 = 0; index3 < numberTroca.length; index3 += 1) {
+    if (numberTroca[index3] % 3 === 0 && numberTroca[index3] % 5 === 0) {
+      numberTroca[index3] = 'fizzBuzz';
+    } else {
+      numberTroca[index3] = 'bug!'; 
+    }
+  }
+return numberTroca;
 }
-
 // Desafio 9
 function encode() {
   // seu código aqui
