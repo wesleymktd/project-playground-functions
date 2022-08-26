@@ -64,34 +64,27 @@ function catAndMouse(mouse, cat1, cat2) {
     return 'cat2';
   } else if (mcat1 < mcat2) {
     return 'cat1';        
-    } else {
-      return 'os gatos trombam e o rato foge';
-    }
+  } else {
+    return 'os gatos trombam e o rato foge';
+  }
 }
 
 // Desafio 8
-function fizzBuzz(numberTroca) {
-  //verifica se é divisível por três e substitui
-  for (let index = 0; index < numberTroca.length; index += 1) {
-    if (numberTroca[index] % 3 === 0) {
-      numberTroca[index] = 'fizz';
+
+function fizzBuzz(numberArray) {
+let strinArray = [];
+ for (let index = 0; index < numberArray.length; index += 1) {
+    if (numberArray[index] % 3 === 0 && numberArray[index] % 5 !== 0) {
+        strinArray.push('fizz');
+    } else if (numberArray[index] % 3 !== 0 && numberArray[index] % 5 === 0) {
+        strinArray.push('buzz');
+    } else if (numberArray[index] % 3 === 0 && numberArray[index] % 5 === 0) {
+        strinArray.push('fizzBuzz');
+    } else if (numberArray[index] % 3 !== 0 && numberArray[index] % 5 !== 0) {
+        strinArray.push('bug!');
     }
   }
- //verifica se é divisível por cinco e substitui
-  for (let index2 = 0; index2 < numberTroca.length; index2 += 1) {
-    if (numberTroca[index2] % 5 === 0) {
-       numberTroca[index2] = 'buzz';
-    }
-  }
- //verifica se é divisível por três e cinco e substitui
-  for (let index3 = 0; index3 < numberTroca.length; index3 += 1) {
-    if (numberTroca[index3] % 3 === 0 && numberTroca[index3] % 5 === 0) {
-      numberTroca[index3] = 'fizzBuzz';
-    } else {
-      numberTroca[index3] = 'bug!'; 
-    }
-  }
-return numberTroca;
+return strinArray;
 }
 // Desafio 9
 function encode() {
