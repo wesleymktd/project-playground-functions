@@ -2,8 +2,8 @@
 
 <h4 align="left"> 
 	Esse projeto se trata de implementações de funções que resolvem problemas com respostas pré-determinadas.
-  algumas dessas funções:</h4>
-  <br>
+  algumas dessas funções:
+</h4>
 1 - Função que calcule a área do triângulo
 
 2 - Função que divida uma frase
