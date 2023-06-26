@@ -2,7 +2,7 @@
 
 <h4 align="left"> 
 	Esse projeto se trata de implementações de funções que resolvem problemas com respostas pré-determinadas.
-  algumas dessas funções:
+  algumas dessas funções:</h4>
   <br>
 1 - Função que calcule a área do triângulo
 
