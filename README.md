@@ -1,13 +1,21 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+## 🧐 Sobre
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+<h4 align="left"> 
+	Esse projeto se trata de implementações de funções que resolvem problemas com respostas pré-determinadas.
+  algumas dessas funções:
+  
+1 - Função que calcule a área do triângulo
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+2 - Função que divida uma frase
+
+3 - Função que use concatenação de strings
+
+4 - Função que calcula a quantidade de pontos em um campeonato de futebol
+
+5 - Função que calcula o número de repetições do maior número
+
+6 - Crie uma função FizzBuzz
+
+7 - Crie uma função que Codifique e Decodifique
+  
+
