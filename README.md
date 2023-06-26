@@ -17,6 +17,19 @@
 6 - Crie uma função FizzBuzz
 
 7 - Crie uma função que Codifique e Decodifique
+
+## ⚒ Instalando <a name = "installing"></a>
+
+```bash
+# Clone o projeto
+$ git clone git@github.com:wesleymktd/project-playground-functions.git
+# Acesse
+$ cd ./project-playground-functions
+# Instale as dependencias
+$ npm install
+# Você pode visualizar o projeto rodando a extensão live Search do Vscode no arquivo index.html
+
+```
   
 ## Principais tecnologias utilizadas:
 - JavaScript
