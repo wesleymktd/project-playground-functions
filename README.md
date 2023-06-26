@@ -18,4 +18,5 @@
 
 7 - Crie uma função que Codifique e Decodifique
   
-
+##Principais tecnologias utilizadas:
+- JavaScript
